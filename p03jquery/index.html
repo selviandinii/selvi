@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p03jquery</title>
+    <style type="text/css">
+        body{
+    background-color: rgb(184, 184, 243);
+    text-align: center;
+} 
+table, th, td{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+table{
+    border: transparent;
+}
+td{
+    background-color: rgb(151, 173, 199);
+}
+th, td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.judul-tabel{
+    background-color: rgb(151, 173, 199);
+}
+table tbody tr:hover td{
+    background-color: rgb(59, 87, 138);
+    border-color: rgb(59, 87, 138);
+    transition: all .2s;
+}
+    </style>
+</head>
+<body>
+    <table style="margin-left: auto;margin-right: auto;" border="1">
+        <tr>
+            <th colspan="4" bgcolor="cornflowerblue">Top 10 of My Bestie JQuery</th>
+        </tr>
+        <tr class="judul-tabel">
+            <th>No</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Aksi</th>
+        </tr>
+        <tr id="row__1">
+            <td>01</td>
+            <td class="nama_bestie">Saeful Amri</td>
+            <td class="alamat">Brebes</td>
+            <td class="hapus tengah" id="hapus__1">Hapus</td>
+        </tr>
+        <tr id="row__2">
+            <td>02</td>
+            <td class="nama_bestie">Rio Harsadino</td>
+            <td class="alamat">Kertawinangun</td>
+            <td class="hapus tengah" id="hapus__2">Hapus</td>
+        </tr>
+        <tr id="row__3">
+            <td>03</td>
+            <td class="nama_bestie">Syaiful Imanudin</td>
+            <td class="alamat">Sumber</td>
+            <td class="hapus tengah" id="hapus__3">Hapus</td>
+        </tr>
+        <tr id="row__4">
+            <td>04</td>
+            <td class="nama_bestie">Rizky Hidayatullah</td>
+            <td class="alamat">Indramayu</td>
+            <td class="hapus tengah" id="hapus__4">Hapus</td>
+        </tr>
+        <tr id="row__5">
+            <td>05</td>
+            <td class="nama_bestie">Givar Dimas Fachrezi</td>
+            <td class="alamat">Perum Gunung</td>
+            <td class="hapus tengah" id="hapus__5">Hapus</td>
+        </tr>
+        <tr id="row__6">
+            <td>06</td>
+            <td class="nama_bestie">Ahmad Syaeful Ma'arief</td>
+            <td class="alamat">Arjawinangun</td>
+            <td class="hapus tengah" id="hapus__6">Hapus</td>
+        </tr>
+        <tr id="row__7">
+            <td>07</td>
+            <td class="nama_bestie">Muhammad Daffa Ayyasy</td>
+            <td class="alamat">Brebes</td>
+            <td class="hapus tengah" id="hapus__7">Hapus</td>
+        </tr>
+        <tr id="row__8">
+            <td>08</td>
+            <td class="nama_bestie">Dhestiar Aflia Zeha Rahita</td>
+            <td class="alamat">Cipto</td>
+            <td class="hapus tengah" id="hapus__8">Hapus</td>
+        </tr>
+        <tr id="row__9">
+            <td>09</td>
+            <td class="nama_bestie">Putri Ayu Dara Sekarwangi</td>
+            <td class="alamat">Indramayu</td>
+            <td class="hapus tengah" id="hapus__9">Hapus</td>
+        </tr>
+        <tr id="row__10">
+            <td>10</td>
+            <td class="nama_bestie">Bima Anugrah Djajanegara</td>
+            <td class="alamat">Cirebon</td>
+            <td class="hapus tengah" id="hapus__10">Hapus</td>
+        </tr>
+    </table><br>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
