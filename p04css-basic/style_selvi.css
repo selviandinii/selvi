@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(184, 184, 243);
+    width: 90%;
+    border: 5px solid white;
+    display: block;
+    margin: auto;
+}
+.box1, .box2, .box3{
+    background-color: rgb(146, 155, 202);
+    border: 1px solid rgb(146, 155, 202);
+    border-radius: 10px;
+}
+ol,h3 {
+    color: red;
+}
+.p1 {
+    color: red;
+}
+.judul1, .judul2 {
+    color: rgb(59, 35, 196);
+}
+h1 {
+    color: rgb(59, 35, 196);
+}
