@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p05 jquery delete</title>
+    <style type="text/css">
+        body{
+            background-color: rgb(184, 184, 243);
+            text-align: center;
+        } 
+        table, th, td{
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        table{
+            border: transparent;
+        }
+        td{
+            background-color: rgb(151, 173, 199);
+        }
+        th, td{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 40px;
+        }
+        .judul-tabel{
+            background-color: rgb(59, 87, 138);
+        }
+        table tbody tr:hover td{
+            background-color: rgb(59, 87, 138);
+            border-color: rgb(59, 87, 138);
+            transition: all .2s;
+        }
+    </style>
+</head>
+<body>
+    <table style="margin-left: auto;margin-right: auto;" border="1">
+        <tr class="judul-tabel">
+            <th>No</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Aksi</th>
+        </tr>
+        <tr id="baris__1">
+            <td>01</td>
+            <td class="data" id="nama_bestie__1">Saeful Amri</td>
+            <td class="data" id="alamat__1">Brebes</td>
+            <td class="data tengah" id="hapus__1">Hapus</td>
+        </tr>
+        <tr id="baris__2">
+            <td>02</td>
+            <td class="data" id="nama_bestie__2">Rio Harsadino</td>
+            <td class="data" id="alamat__2">Kertawinangun</td>
+            <td class="data tengah" id="hapus__2">Hapus</td>
+        </tr>
+        <tr id="baris__3">
+            <td>03</td>
+            <td class="data" id="nama_bestie__3">Syaiful Imanudin</td>
+            <td class="data" id="alamat__3">Sumber</td>
+            <td class="data tengah" id="hapus__3">Hapus</td>
+        </tr>
+        <tr id="baris__4">
+            <td>04</td>
+            <td class="data" id="nama_bestie__4">Rizky Hidayatullah</td>
+            <td class="data" id="alamat__4">Indramayu</td>
+            <td class="data tengah" id="hapus__4">Hapus</td>
+        </tr>
+        <tr id="baris__5">
+            <td>05</td>
+            <td class="data" id="nama_bestie__5">Givar Dimas Fachrezi</td>
+            <td class="data" id="alamat__5">Perum Gunung</td>
+            <td class="data tengah" id="hapus__5">Hapus</td>
+        </tr>
+        <tr id="baris__6">
+            <td>06</td>
+            <td class="data" id="nama_bestie__6">Ahmad Syaeful Ma'arief</td>
+            <td class="data" id="alamat__6">Arjawinangun</td>
+            <td class="data tengah" id="hapus__6">Hapus</td>
+        </tr>
+        <tr id="baris__7">
+            <td>07</td>
+            <td class="data" id="nama_bestie__7">Muhammad Daffa Ayyasy</td>
+            <td class="data" id="alamat__7">Brebes</td>
+            <td class="data tengah" id="hapus__7">Hapus</td>
+        </tr>
+        <tr id="baris__8">
+            <td>08</td>
+            <td class="data" id="nama_bestie__8">Dhestiar Aflia Zeha Rahita</td>
+            <td class="data" id="alamat__8">Cipto</td>
+            <td class="data tengah" id="hapus__8">Hapus</td>
+        </tr>
+        <tr id="baris__9">
+            <td>09</td>
+            <td class="data" id="nama_bestie__9">Putri Ayu Dara Sekarwangi</td>
+            <td class="data" id="alamat__9">Indramayu</td>
+            <td class="data tengah" id="hapus__9">Hapus</td>
+        </tr>
+        <tr id="baris__10">
+            <td>10</td>
+            <td class="data" id="nama_bestie__10">Bima Anugrah Djajanegara</td>
+            <td class="data" id="alamat__10">Cirebon</td>
+            <td class="data tengah" id="hapus__10">Hapus</td>
+        </tr>
+    </table><br>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
